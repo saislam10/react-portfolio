@@ -8,7 +8,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default function Project() {
-  const [currentPage, setCurrentPage] = useState('aboutMe');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
