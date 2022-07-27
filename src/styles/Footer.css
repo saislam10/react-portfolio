@@ -8,16 +8,8 @@
     background-color: #A2ABB5;
 
 }
-#GH {
-    background-image: url('../images/GH.png');
-    height: 50px;
-    width: 100px;
-    margin-left: 20px;
-}
-#LI {
-    background-image: url('../images/LI.png');
-    height: 50px;
-    width: 100px;
-    margin-left: 20px;
-
+.Icon {
+    height: 48px;
+    width: 48px;
+    margin: 5px;
 }
