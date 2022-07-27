@@ -7,6 +7,8 @@ export default function AboutMe() {
         <> 
         <div className='DivClass'>
             <h2 className='TitleClass'>About Me: </h2>
+            <img src="../../images/Me.png" alt="Safwan Islam"> 
+            </img>
             <p className='DescribeClass'> Hello! I am Safwan Islam. I currently attend Davidson College and will be a
                 third-year in the fall! As of now, I am working through the UNC Charlotte coding bootcamp, and
                 have created my first two projects! The first project is a front-end project which takes in a few APIs and

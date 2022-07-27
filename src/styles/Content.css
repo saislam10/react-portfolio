@@ -1,3 +1,6 @@
+body{
+    background-color: #C0E0DE;
+}
 .DivClass {
     background-color: #C0E0DE;
     color: #162521;
@@ -73,4 +76,13 @@
     background-size: 200px;
     cursor: pointer;
 
+}
+
+#Repo{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgb(193, 240, 224);
 }
