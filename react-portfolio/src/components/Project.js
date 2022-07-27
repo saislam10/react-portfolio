@@ -5,8 +5,9 @@ import MyPortfolio from './pages/MyPortfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Header from './Header';
+import Footer from './Footer';
 
-export default function Portfolio() {
+export default function Project() {
   const [currentPage, setCurrentPage] = useState('aboutMe');
 
   const renderPage = () => {
@@ -15,6 +16,7 @@ export default function Portfolio() {
             <div>
                 <Header/>
                 <AboutMe/>
+                <Footer/>
             </div>
           );
     }
@@ -23,6 +25,7 @@ export default function Portfolio() {
             <div>
                 <Header/>
                 <MyPortfolio/>
+                <Footer/>
             </div>
           );
     }
@@ -31,6 +34,7 @@ export default function Portfolio() {
             <div>
                 <Header/>
                 <Contact/>
+                <Footer/>
             </div>
           );
     }
@@ -39,8 +43,17 @@ export default function Portfolio() {
             <div>
                 <Header/>
                 <Resume/>
+                <Footer/>
             </div>
         )
+    }
+    else {
+      return (
+        <div>
+            <Header/>
+            <Footer/>
+        </div>
+    )
     }
   };
 
