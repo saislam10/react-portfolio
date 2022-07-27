@@ -1,17 +1,13 @@
 import React from "react";
+import '../styles/Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
-      <div className="DivClass">
-          <a href="https://www.linkedin.com/in/safwan-islam-70a095246//">
-            LinkedIn
-          </a>
-          <a href="https://github.com/saislam10">
-            GitHub
-          </a>
+      
+          <a id="LI" href="https://www.linkedin.com/in/safwan-islam-70a095246//"> </a>
+          <a id="GH" href="https://github.com/saislam10"> </a>
 
-      </div>
     </footer>
   );
 }

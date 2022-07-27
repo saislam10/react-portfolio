@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #C0E0DE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: monospace;
+    border: solid;
+    border-width: 5px; 
+
+}
+
+#AboutMe {
+    color: #162521;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+#AboutMe:hover {
+    color: #51A3A3;
+    cursor: pointer;
+}
+
+#MyPortfolio {
+    color: #162521;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+#MyPortfolio:hover {
+    color: #51A3A3;
+    cursor: pointer;
+}
+
+#Contact {
+    color: #162521;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+#Contact:hover {
+    color: #51A3A3;
+    cursor: pointer;
+}
+
+#Resume {
+    color: #162521;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+#Resume:hover {
+    color: #51A3A3;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.DivClass {
+    background-color: #C0E0DE;
+    color: #162521;
+    font-family: monospace;
+    border: solid;
+    border-width: 5px; 
+}
+
+.TitleClass{
+    background-color: #C0E0DE;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: monospace;
+    color: #162521;
+    font-size: 30px;
+}
+
+.DescribeClass {
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#Work1{
+    font-size: 30px;
+    background-color: rgb(193, 240, 224);
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+
+}
+
+#Work1:hover{
+    opacity: .7;
+    background-image: url('../images/Music.png');
+    background-position: center;
+    background-size: 200px;
+    cursor: pointer;
+
+}
+
+#Work2{
+    font-size: 30px;
+    background-color: rgb(193, 240, 224);
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+
+#Work2:hover{
+    opacity: .7;
+    background-image: url('../images/Movies.png');
+    background-position: center;
+    background-size: 200px;
+    cursor: pointer;
+
+}

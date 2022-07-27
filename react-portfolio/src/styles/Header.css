@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: left;
+    padding-left: 25px;
+    font-size: 25px;
+    background-color: #A2ABB5;
+    font-family: monospace;
+    color: #162521;
+    border: solid;
+    border-width: 5px; 
+}
