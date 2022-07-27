@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     font-family: monospace;
-    margin: 10px;
+    border: solid;
+    border-width: 5px;
+    padding: 5px;
+    background-color: #A2ABB5;
 
 }
 #GH {

@@ -9,7 +9,7 @@ export default function AboutMe() {
             <h2 className='TitleClass'>About Me: </h2>
             <p className='DescribeClass'> Hello! I am Safwan Islam. I currently attend Davidson College and will be a
                 third-year in the fall! As of now, I am working through the UNC Charlotte coding bootcamp, and
-                have created my first two projects! The project is a front-end project which takes in a few APIs and
+                have created my first two projects! The first project is a front-end project which takes in a few APIs and
                 manipulates them
                 to get music data, specifically the top three albums based on the current week, and returns various
                 info for those artists who have albums in the top three. My second project is a movie search engine.
